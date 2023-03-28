@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="comntainer_one">
+      <nav class="menu">
+        <section class="menu__container">
+          <div class="container-Logo">
+            <img src="../img/logo_kike.png" alt="">
+          </div>
+
+          <ul class="menu__links">
+            <li class="menu__item">
+              <a href="../index.html" class="menu__link">Inicio</a>
+            </li>
+            <li class="menu__item">
+              <a href="../webform/nosotros.html" class="menu__link">¿Quienes Somos?</a>
+            </li>
+            <li class="menu__item menu__item--show">
+              <a href="#" class="menu__link">Productos </a>
+
+              <ul class="menu__nesting">
+                <li class="menu__inside">
+                  <a href="../webform/catalogo.html" class="menu__link--inside">catalogo</a>
+                </li>
+                <li class="menu__inside">
+                  <a href="#" class="menu__link--inside">About 2</a>
+                </li>
+                <li class="menu__inside">
+                  <a href="#" class="menu__link--inside">About 3</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Servicios</a>
+            </li>
+          </ul>
+          <div class="container-contact">
+            <a href="../webform/contacto.html" class="contact">Contacto</a>
+          </div>
+          <div class="icon menu__hamburguer">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </section>
+      </nav>
+    </div>
+  </header>
+<main>
+  <div class="container_one">
+    <section class="content_contact">
+
+      <div class="title">
+        <div class="left-side">
+          <h2>Contactanos</h2>
+        </div>
+        <div class="right-side">
+          <h2>Cotizacion de Producto</h2>
+        </div>
+      </div>
+  
+      <div class="container">
+        <div class="left-side">
+          <div class="item">
+            <h3>EMAIL</h3>
+            <a>information@untitled.ext</a>
+          </div>
+          <div class="item">
+            <h3>Telefonos</h3>
+            <a >(000) 000-0000</a>
+          </div>
+          <div class="item">
+            <h3>ADDRESS</h3>
+            <a >123 Somewhere Road, Nashville, TN 000</a>
+          </div>
+          <div class="item">
+            <h3>Nuestras Redes Sociales</h3>
+            <div class="icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-tiktok"></i></a>
+              <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="right-side">
+          <form action="https://formsubmit.co/mikaeljara47@gmail.com" method="POST">
+            <div class="top">
+              <div class="top-Content">
+              <label for="">Nombres</label>
+              <input type="text" name="nombres" placeholder="Nombre">
+            </div>
+            <div class="top-Content">
+              <label for="">Apellidos</label>
+              <input type="text" name="apellidos" placeholder="Apellidos">
+            </div>
+            </div>
+            <div class="top">
+              <div class="top-Content">
+                <label for="">Telefono</label>
+              <input type="text" name="telefono" placeholder="Telefono">
+            </div>
+            <div class="top-Content">
+              <label for="">Email</label>
+            <input type="email" name="email" placeholder="Telefono">
+          </div>
+            </div>
+            <div class="top">
+            <div class="top-Content">
+              <label for="">Categorias</label>
+              <select name="categoria" >
+                <option>Seleccionar</option>
+                <option>Male</option>
+                <option>Female</option>
+              </select>
+            </div>
+            </div>
+            <textarea name="name"placeholder="Descripcion"></textarea>
+            <input type = "submit" value="Enviar" class="-booton">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5504/menu-desplegable-main/webform/contacto.html#">
+            <input type="hidden" name="_captcha" value="false">
+          </form>
+        </div>
+      </div>
+  </section>
+</div>
+<div class="container_one">
+  <section class="container_map">
+    <img src="../img/map_kike.png" alt="">
+  </section>
+</div>
+</main>
+</body>
+</html>
